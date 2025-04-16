@@ -44,7 +44,7 @@ export default function Summary({ userAnswers }) {
             cssClasses += " correct";
           } else {
             cssClasses += " wrong";
-          }
+          } 
 
           return (
             <li key={index}>
